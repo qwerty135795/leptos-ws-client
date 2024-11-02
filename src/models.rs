@@ -22,5 +22,6 @@ pub struct LoginModel {
 }
 #[derive(Debug, Deserialize, Serialize, Clone)]
 pub struct Tokens {
-    pub access_token:String
+    pub access_token:String,
+    pub token_type:String
 }
